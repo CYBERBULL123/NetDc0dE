@@ -26,11 +26,11 @@ Netktool is a robust Python tool crafted for extracting comprehensive informatio
 
 To use Netktool, ensure you have Python and pip installed. It is compatible with both Linux and Termux. 
 ### 1 •  Update Packages 
-## For Linux
+#### For Linux
 ```bash
 apt update && apt upgrade -y
 ```
-## For Termux 
+#### For Termux 
 ```bash
 Pkg update && pkg upgrade -y
 ```
@@ -75,7 +75,7 @@ netktool.py -n 192.168.128.220/12 -ni -s 12 45 67 21 -st VLSM/FLSM -a -o
 netktool.py -n 10.0.0.1/13 -ni -s 12 45 67 21 -st VLSM -a -o
 ```
 
-## Contributing
+## Contributing 🎊
 
 Feel free to contribute to Netktool by opening issues or submitting pull requests. Your contributions are highly valued. 🙌
 
