@@ -58,7 +58,7 @@ chmod +rwx *
 ## Usage
 
 ```bash
-netktool.py -n 192.168.128.220/12 -ni -s 12 45 67 21 -st VLSM/FLSM -a -o
+python3 netktool.py -n 192.168.128.220/12 -ni -s 12 45 67 21 -st VLSM/FLSM -a -o
 ```
 
 - `-n`: Specify the network in CIDR notation.
@@ -71,7 +71,7 @@ netktool.py -n 192.168.128.220/12 -ni -s 12 45 67 21 -st VLSM/FLSM -a -o
 ## Example 🧑‍💻
 
 ```bash
-netktool.py -n 10.0.0.1/13 -ni -s 12 45 67 21 -st VLSM -a -o
+./netktool.py -n 10.0.0.1/13 -ni -s 12 45 67 21 -st VLSM -a -o
 ```
 
 ## Contributing 🎊
