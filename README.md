@@ -26,11 +26,11 @@ Netktool is a robust Python tool crafted for extracting comprehensive informatio
 
 To use Netktool, ensure you have Python and pip installed. It is compatible with both Linux and Termux. 
 ### 1 •  Update Packages 
-#### For Linux
+For Linux
 ```bash
 apt update && apt upgrade -y
 ```
-#### For Termux 
+For Termux 
 ```bash
 Pkg update && pkg upgrade -y
 ```
@@ -50,7 +50,6 @@ cd NetDc0dE
 ### 5 • Download packages of pip
 ```bash
 pip install -r requirements.txt
-pkg install -r requirements.txt
 ```
 ### 6 • Give permission
 ```bash
