@@ -32,26 +32,30 @@ apt update && apt upgrade -y
 ```
 For Termux 
 ```bash
-Pkg update && pkg upgrade -y
+pkg update && pkg upgrade -y
 ```
 ### 2 • Download Python and pip 
+Linux 
 ```bash
 apt install python3 && apt install pip -y
-pkg install python3 && apt install pip -y
+```
+Termux
+```bash
+pkg install python3 && pkg install pip3 -y
 ```
 ### 3 • Download Tool
 ```bash
 git clone https://github.com/CYBERBULL123/NetDc0dE
 ```
-### 4 • Go to directory
+### 4 • Go to Directory
 ```bash
 cd NetDc0dE
 ```
-### 5 • Download packages of pip
+### 5 • Download Packages of pip
 ```bash
 pip install -r requirements.txt
 ```
-### 6 • Give permission
+### 6 • Give Permission
 ```bash
 chmod +rwx *
 ```
