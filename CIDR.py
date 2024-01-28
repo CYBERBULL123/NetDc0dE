@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-
+# property of CyberBuLL 
 # Usage: <ip>/<cidr> (e.g 192.168.0.0/24)
+
 
 import sys
 
