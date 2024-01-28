@@ -18,6 +18,7 @@ fonts = Figlet().getFonts()
 # Randomly choose a font for each text block
 random_font = random.choice(fonts)
 
+# Banner Function 
 print("                                                                        ")
 custom_fig = Figlet(font=random_font)
 print(colored(custom_fig.renderText('   NetkTool'), 'blue'))
@@ -25,6 +26,7 @@ print(colored("                                                                 
 custom_fig = Figlet(font='smshadow')
 print(colored(custom_fig.renderText('         CyBeR  BuLL'), "red"))
 print(colored("-------------------------------------- By :- Aadi OP -------------------------", 'red'))
+
 parser = argparse.ArgumentParser()
 parser.add_argument('-n', '--network', dest="cidr", required=True, help="The CIDR notation of a network")
 parser.add_argument('-ni', '--network-info', action="store_true", help="Show the Info section of the network entered with (--network) option")
