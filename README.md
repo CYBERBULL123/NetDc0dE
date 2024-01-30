@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ```bash
 chmod +rwx *
 ```
-## Usage
+## Usage 🌟
 
 ```bash
 python3 netktool.py -n 192.168.128.220/12 -ni -s 12 45 67 21 -st VLSM/FLSM -a -o
